@@ -1,0 +1,124 @@
+{
+  "main": {
+    "id": "af5eed327918e6f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4e644189857a968",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Программирование/JavaScript/Как устроен JS - Крокфорд 2019.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "111d65232a3cc913",
+    "type": "split",
+    "children": [
+      {
+        "id": "c567280d5aad112a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d48680bdfb387163",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2b8e440e4d9f0910",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#PlayCanvas",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de294a38d5f35203",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317
+  },
+  "right": {
+    "id": "c11d179e0562345b",
+    "type": "split",
+    "children": [
+      {
+        "id": "abffec072d158bde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "470170ca327d1ac5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Программирование/JavaScript/Как устроен JS - Крокфорд 2019.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9fd072d6464c605",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aeb276ee9b83343f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Программирование/JavaScript/Как устроен JS - Крокфорд 2019.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f4e644189857a968",
+  "lastOpenFiles": [
+    "Программирование/JavaScript/Как устроен JS - Крокфорд 2019.md",
+    "Программирование/PlayCanvas/Определения.md"
+  ]
+}

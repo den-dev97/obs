@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "af5eed327918e6f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ec259511d3536b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f15c617bdf0cc68",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "111d65232a3cc913",
+    "type": "split",
+    "children": [
+      {
+        "id": "c567280d5aad112a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d48680bdfb387163",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b8e440e4d9f0910",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de294a38d5f35203",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "3909d49a8ade25e2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 288.5
+  },
+  "right": {
+    "id": "c11d179e0562345b",
+    "type": "split",
+    "children": [
+      {
+        "id": "abffec072d158bde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "470170ca327d1ac5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9fd072d6464c605",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aeb276ee9b83343f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:Создать новый холст": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "command-palette:Открыть палитру команд": false,
+      "markdown-importer:Импорт Markdown-файлов": false,
+      "zk-prefixer:Создать заметку с уникальным идентификатором": false,
+      "random-note:Открыть случайную заметку": false,
+      "audio-recorder:Начать/остановить запись": false,
+      "publish:Публикация изменений": false
+    }
+  },
+  "active": "2f15c617bdf0cc68",
+  "lastOpenFiles": [
+    "Программирование/base/Шпоры по Js.md",
+    "Программирование/base/JavaScript.md",
+    "Программирование/base/Шпоры TS.md",
+    "Программирование/base/Лайвкодинг JS.md",
+    "Программирование/base/Vue.md",
+    "Программирование/base/Vue настройки.md",
+    "Программирование/base",
+    "obsidian/files/img/Pasted image 20210418184645.png",
+    "obsidian/files/img/Pasted image 20210418182519.png",
+    "obsidian/files/img/Pasted image 20210418181521.png",
+    "obsidian/files/img",
+    "obsidian/base/Шпоры по Js.md",
+    "obsidian/base/Шпоры TS.md",
+    "obsidian/base/Лайвкодинг JS.md",
+    "obsidian/base/Vue.md",
+    "obsidian/base/Vue настройки.md",
+    "obsidian/base/JavaScript.md",
+    "obsidian/index.js",
+    "obsidian/files",
+    "obsidian/base",
+    "obsidian",
+    "Программирование/obsidian/files/img/Pasted image 20210418184645.png",
+    "Программирование/obsidian/files/img/Pasted image 20210418182519.png",
+    "Программирование/obsidian/files/img/Pasted image 20210418181521.png",
+    "Программирование/obsidian/files/img",
+    "Программирование/obsidian/base/Шпоры по Js.md",
+    "Программирование/obsidian/base/Шпоры TS.md",
+    "Программирование/obsidian/base/Лайвкодинг JS.md",
+    "Программирование/obsidian/base/Vue.md",
+    "Программирование/obsidian/base/Vue настройки.md",
+    "Программирование/obsidian/base/JavaScript.md",
+    "Программирование/obsidian/index.js",
+    "Программирование/obsidian/files",
+    "Программирование/obsidian/base",
+    "Задачи JS.md",
+    "Ежедневные заметки/2023-01-24.md",
+    "Ежедневные заметки/2023-01-12.md",
+    "Ежедневные заметки/2023-01-17.md",
+    "Ежедневные заметки/2023-01-18.md",
+    "Программирование/JavaScript/Как устроен JS - Крокфорд 2019.md",
+    "Заметки/Психология совместимости.md",
+    "Заметки/Достижения.md",
+    "Без названия.canvas",
+    "Без названия 1.canvas"
+  ]
+}
