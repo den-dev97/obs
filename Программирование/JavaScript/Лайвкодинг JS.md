@@ -16,7 +16,7 @@ function debounce(callback, delay) {
 
 const fetching = debounce(fetchUrl, 1);
 
-fetching(1); // Запускаем вызов функции fetchUrl с аргументом 1
-fetching(2); // Запускаем вызов функции fetchUrl с аргументом 2
+fetching(1); 
+fetching(2); 
 fetching(3); // Запускаем вызов функции fetchUrl с аргументом 3
 ```
