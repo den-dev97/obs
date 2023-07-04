@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1ec259511d3536b4",
+        "id": "74a5657b604db3db",
         "type": "tabs",
         "children": [
           {
-            "id": "2f15c617bdf0cc68",
+            "id": "4c6db18a3adb2da4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,8 +139,80 @@
       "publish:Публикация изменений": false
     }
   },
-  "active": "2f15c617bdf0cc68",
+  "floating": {
+    "id": "85564a5fdba647ae",
+    "type": "floating",
+    "children": [
+      {
+        "id": "5427d5ab5e91874e",
+        "type": "window",
+        "children": [
+          {
+            "id": "57e2eb838d42aa69",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d7d777509f39517f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Программирование/JavaScript/Шпоры по Js.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "61cff10524b60b83",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Программирование/Vue.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "b247210a531cd0e4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1cd1739810740e01",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Программирование/Шпоры TS.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 1440,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "4c6db18a3adb2da4",
   "lastOpenFiles": [
+    "Программирование/Шпоры TS.md",
+    "Программирование/JavaScript/Шпоры по Js.md",
+    "Программирование/Vue.md",
+    "Программирование/JavaScript/Лайвкодинг JS.md",
+    "Программирование/JavaScript/JavaScript.md",
     "Программирование/base/Шпоры по Js.md",
     "Программирование/base/JavaScript.md",
     "Программирование/base/Шпоры TS.md",
@@ -178,11 +250,6 @@
     "Задачи JS.md",
     "Ежедневные заметки/2023-01-24.md",
     "Ежедневные заметки/2023-01-12.md",
-    "Ежедневные заметки/2023-01-17.md",
-    "Ежедневные заметки/2023-01-18.md",
-    "Программирование/JavaScript/Как устроен JS - Крокфорд 2019.md",
-    "Заметки/Психология совместимости.md",
-    "Заметки/Достижения.md",
     "Без названия.canvas",
     "Без названия 1.canvas"
   ]
