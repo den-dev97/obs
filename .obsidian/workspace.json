@@ -89,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Программирование/JavaScript/Шпоры по Js.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Программирование/JavaScript/Шпоры по Js.md"
+              }
             }
           }
         ]
@@ -162,7 +165,13 @@
                     "source": false
                   }
                 }
-              },
+              }
+            ]
+          },
+          {
+            "id": "cf68b17cbbbdd29d",
+            "type": "tabs",
+            "children": [
               {
                 "id": "61cff10524b60b83",
                 "type": "leaf",
@@ -170,7 +179,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "Программирование/Vue.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   }
                 }
@@ -197,20 +206,20 @@
           }
         ],
         "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 1440,
-        "maximize": false,
+        "x": 3126,
+        "y": 317,
+        "width": 600,
+        "height": 600,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "4c6db18a3adb2da4",
+  "active": "d7d777509f39517f",
   "lastOpenFiles": [
-    "Программирование/Шпоры TS.md",
-    "Программирование/JavaScript/Шпоры по Js.md",
     "Программирование/Vue.md",
+    "Программирование/JavaScript/Шпоры по Js.md",
+    "Программирование/Шпоры TS.md",
     "Программирование/JavaScript/Лайвкодинг JS.md",
     "Программирование/JavaScript/JavaScript.md",
     "Программирование/base/Шпоры по Js.md",
