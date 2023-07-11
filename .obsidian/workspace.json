@@ -8,11 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c6db18a3adb2da4",
+            "id": "1cd1739810740e01",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Программирование/JavaScript/Шпоры по Js.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7d777509f39517f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Программирование/JavaScript/Шпоры по Js.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f8b684eba7bb49eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61cff10524b60b83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Программирование/Vue.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -142,86 +176,13 @@
       "publish:Публикация изменений": false
     }
   },
-  "floating": {
-    "id": "85564a5fdba647ae",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5427d5ab5e91874e",
-        "type": "window",
-        "children": [
-          {
-            "id": "57e2eb838d42aa69",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d7d777509f39517f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Программирование/JavaScript/Шпоры по Js.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "cf68b17cbbbdd29d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "61cff10524b60b83",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Программирование/Vue.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "b247210a531cd0e4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1cd1739810740e01",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Программирование/Шпоры TS.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3126,
-        "y": 317,
-        "width": 600,
-        "height": 600,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "d7d777509f39517f",
+  "active": "1cd1739810740e01",
   "lastOpenFiles": [
     "Программирование/Vue.md",
     "Программирование/JavaScript/Шпоры по Js.md",
-    "Программирование/Шпоры TS.md",
-    "Программирование/JavaScript/Лайвкодинг JS.md",
     "Программирование/JavaScript/JavaScript.md",
+    "Программирование/JavaScript/Лайвкодинг JS.md",
+    "Программирование/Шпоры TS.md",
     "Программирование/base/Шпоры по Js.md",
     "Программирование/base/JavaScript.md",
     "Программирование/base/Шпоры TS.md",
