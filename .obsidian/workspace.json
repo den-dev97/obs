@@ -6,6 +6,7 @@
       {
         "id": "74a5657b604db3db",
         "type": "tabs",
+        "dimension": 33.33333333333333,
         "children": [
           {
             "id": "1cd1739810740e01",
@@ -13,14 +14,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Программирование/JavaScript/Шпоры по Js.md",
+                "file": "Программирование/Общие вопросы по Web.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d7d777509f39517f",
+            "id": "b7f2c6774e68346b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,8 +35,9 @@
         ]
       },
       {
-        "id": "f8b684eba7bb49eb",
+        "id": "d73784d4b944c3e6",
         "type": "tabs",
+        "dimension": 35.333333333333336,
         "children": [
           {
             "id": "61cff10524b60b83",
@@ -44,6 +46,38 @@
               "type": "markdown",
               "state": {
                 "file": "Программирование/Vue.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c472f89ea4405704",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Программирование/JavaScript/Лайвкодинг JS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "4f62470f7d1779cd",
+        "type": "tabs",
+        "dimension": 31.333333333333336,
+        "children": [
+          {
+            "id": "15fc40d143a49553",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Программирование/Шпоры TS.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 291.5,
+    "collapsed": true
   },
   "right": {
     "id": "c11d179e0562345b",
@@ -123,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Программирование/JavaScript/Шпоры по Js.md",
+                "file": "Программирование/Общие вопросы по Web.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Программирование/JavaScript/Шпоры по Js.md"
+                "file": "Программирование/Общие вопросы по Web.md"
               }
             }
           }
@@ -178,11 +213,12 @@
   },
   "active": "1cd1739810740e01",
   "lastOpenFiles": [
-    "Программирование/Vue.md",
     "Программирование/JavaScript/Шпоры по Js.md",
-    "Программирование/JavaScript/JavaScript.md",
     "Программирование/JavaScript/Лайвкодинг JS.md",
+    "Программирование/Общие вопросы по Web.md",
     "Программирование/Шпоры TS.md",
+    "Программирование/Vue.md",
+    "Программирование/JavaScript/JavaScript.md",
     "Программирование/base/Шпоры по Js.md",
     "Программирование/base/JavaScript.md",
     "Программирование/base/Шпоры TS.md",
@@ -219,7 +255,6 @@
     "Программирование/obsidian/base",
     "Задачи JS.md",
     "Ежедневные заметки/2023-01-24.md",
-    "Ежедневные заметки/2023-01-12.md",
     "Без названия.canvas",
     "Без названия 1.canvas"
   ]
