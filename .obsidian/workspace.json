@@ -6,7 +6,7 @@
       {
         "id": "74a5657b604db3db",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 36.16504854368932,
         "children": [
           {
             "id": "1cd1739810740e01",
@@ -32,12 +32,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d73784d4b944c3e6",
         "type": "tabs",
-        "dimension": 35.333333333333336,
+        "dimension": 32.5242718446602,
         "children": [
           {
             "id": "61cff10524b60b83",
@@ -69,7 +70,7 @@
       {
         "id": "4f62470f7d1779cd",
         "type": "tabs",
-        "dimension": 31.333333333333336,
+        "dimension": 31.31067961165049,
         "children": [
           {
             "id": "15fc40d143a49553",
@@ -158,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Программирование/Общие вопросы по Web.md",
+                "file": "Программирование/JavaScript/Шпоры по Js.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Программирование/Общие вопросы по Web.md"
+                "file": "Программирование/JavaScript/Шпоры по Js.md"
               }
             }
           }
@@ -211,11 +212,11 @@
       "publish:Публикация изменений": false
     }
   },
-  "active": "1cd1739810740e01",
+  "active": "b7f2c6774e68346b",
   "lastOpenFiles": [
+    "Программирование/Общие вопросы по Web.md",
     "Программирование/JavaScript/Шпоры по Js.md",
     "Программирование/JavaScript/Лайвкодинг JS.md",
-    "Программирование/Общие вопросы по Web.md",
     "Программирование/Шпоры TS.md",
     "Программирование/Vue.md",
     "Программирование/JavaScript/JavaScript.md",
