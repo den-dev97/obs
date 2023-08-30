@@ -6,7 +6,7 @@
       {
         "id": "74a5657b604db3db",
         "type": "tabs",
-        "dimension": 36.16504854368932,
+        "dimension": 50.89392133492253,
         "children": [
           {
             "id": "1cd1739810740e01",
@@ -31,15 +31,7 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "d73784d4b944c3e6",
-        "type": "tabs",
-        "dimension": 32.5242718446602,
-        "children": [
+          },
           {
             "id": "61cff10524b60b83",
             "type": "leaf",
@@ -70,7 +62,7 @@
       {
         "id": "4f62470f7d1779cd",
         "type": "tabs",
-        "dimension": 31.31067961165049,
+        "dimension": 49.106078665077476,
         "children": [
           {
             "id": "15fc40d143a49553",
@@ -113,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Декораторы",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Программирование/JavaScript/Шпоры по Js.md",
+                "file": "Программирование/Шпоры TS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Программирование/JavaScript/Шпоры по Js.md"
+                "file": "Программирование/Шпоры TS.md"
               }
             }
           }
@@ -212,13 +204,13 @@
       "publish:Публикация изменений": false
     }
   },
-  "active": "b7f2c6774e68346b",
+  "active": "15fc40d143a49553",
   "lastOpenFiles": [
-    "Программирование/Общие вопросы по Web.md",
     "Программирование/JavaScript/Шпоры по Js.md",
-    "Программирование/JavaScript/Лайвкодинг JS.md",
     "Программирование/Шпоры TS.md",
+    "Программирование/Общие вопросы по Web.md",
     "Программирование/Vue.md",
+    "Программирование/JavaScript/Лайвкодинг JS.md",
     "Программирование/JavaScript/JavaScript.md",
     "Программирование/base/Шпоры по Js.md",
     "Программирование/base/JavaScript.md",
