@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Программирование/Общие вопросы по Web.md",
+                "file": "Программирование/JavaScript/Шпоры по Js.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4f62470f7d1779cd",
@@ -105,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Декораторы",
+                "query": "Всплытие",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +130,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Программирование/Шпоры TS.md",
+                "file": "Программирование/Vue.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Программирование/Шпоры TS.md"
+                "file": "Программирование/Vue.md"
               }
             }
           }
@@ -204,12 +205,12 @@
       "publish:Публикация изменений": false
     }
   },
-  "active": "15fc40d143a49553",
+  "active": "61cff10524b60b83",
   "lastOpenFiles": [
-    "Программирование/JavaScript/Шпоры по Js.md",
     "Программирование/Шпоры TS.md",
-    "Программирование/Общие вопросы по Web.md",
     "Программирование/Vue.md",
+    "Программирование/JavaScript/Шпоры по Js.md",
+    "Программирование/Общие вопросы по Web.md",
     "Программирование/JavaScript/Лайвкодинг JS.md",
     "Программирование/JavaScript/JavaScript.md",
     "Программирование/base/Шпоры по Js.md",
