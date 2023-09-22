@@ -104,7 +104,8 @@ class MyClass {
 # **Что такое файл объявления в TypeScript и для чего он используется?** 
 Файлы объявлений используются, чтобы помочь TypeScript понять формат библиотек, написанных на JavaScript. Они обычно имеют расширение .d.ts.
 ***
-# **Что такое тип `any` в TypeScript?** Тип `any` в TypeScript позволяет переменной принимать любой тип данных. Это полезно, когда тип данных неизвестен или может быть разным.
+# **Что такое тип `any` в TypeScript?** 
+Тип `any` в TypeScript позволяет переменной принимать любой тип данных. Это полезно, когда тип данных неизвестен или может быть разным.
 `let variable: any = 'Hello'; variable = 42;  // Это допустимо, поскольку variable имеет тип any`
 ***
 # **Как работают `interface`** 
@@ -285,6 +286,68 @@ class User implements Person { name = "John"; }
 
 ### Заключение
 Выбор между `type` и `interface` зависит от конкретного случая использования. Если вам нужно определить контракт объекта, который может быть реализован классами, интерфейсы могут быть лучшим выбором. Если вам нужна большая гибкость в определении сложных или комбинированных типов, алиасы типов могут быть более подходящими.
+***
+В TypeScript, `Pick`, `Omit`, и `ReturnType` являются утилитными типами, которые позволяют манипулировать типами в различных сценариях. Вот как они работают:
+
+# `Pick`, `Omit`, и `ReturnType`
+В TypeScript, `Pick`, `Omit`, и `ReturnType` являются утилитными типами, которые позволяют манипулировать типами в различных сценариях. Вот как они работают:
+### 1. `Pick<Type, Keys>`
+
+`Pick` создает новый тип, выбирая подмножество свойств из существующего типа.
+
+```typescript
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+
+type TodoPreview = Pick<Todo, "title" | "completed">;
+
+const todo: TodoPreview = {
+  title: "Clean room",
+  completed: false,
+};
+
+// `todo` теперь имеет только свойства `title` и `completed`.
+```
+
+### 2. `Omit<Type, Keys>`
+
+`Omit` создает новый тип, исключая указанные свойства из существующего типа.
+
+```typescript
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+
+type TodoInfo = Omit<Todo, "completed">;
+
+const todoInfo: TodoInfo = {
+  title: "Pick up kids",
+  description: "Pick up kids from school",
+};
+
+// `todoInfo` теперь не имеет свойства `completed`.
+```
+
+### 3. `ReturnType<Type>`
+
+`ReturnType` извлекает тип возвращаемого значения функции.
+
+```typescript
+type T0 = ReturnType<() => string>;  // string
+type T1 = ReturnType<(s: string) => void>;  // void
+type T2 = ReturnType<<T>() => T>;  // {}
+type T3 = ReturnType<<T extends U, U extends number[]>() => T>;  // number[]
+type T4 = ReturnType<typeof Math.random>;  // number
+```
+
+Эти утилитные типы очень полезны для создания новых типов на основе существующих, что делает ваш код более гибким и поддерживаемым.
+
+Подробнее о утилитных типах можно прочитать в [официальной документации TypeScript](https://www.typescriptlang.org/docs/handbook/utility-types.html).
 ***
 # **Как код TypeScript трансформируется в Js?** 
 ### 1. Удаление Типов и Сигнатур
@@ -534,4 +597,5 @@ class Car {
 ***
 **Что такое деструктуризация в TypeScript?** Деструктуризация - это ES6-функция, которую TypeScript поддерживает. Он позволяет извлекать данные из массивов или объектов с использованием синтаксиса, который зеркалирует конструкцию массивов и объектов.
  `let { a, b }: { a: string, b: number } = { a: "baz", b: 101 };`
+
 
