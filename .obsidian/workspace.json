@@ -6,7 +6,6 @@
       {
         "id": "74a5657b604db3db",
         "type": "tabs",
-        "dimension": 52.861685214626384,
         "children": [
           {
             "id": "61cff10524b60b83",
@@ -47,22 +46,9 @@
         ]
       },
       {
-        "id": "4f62470f7d1779cd",
+        "id": "a18559f166bb3a62",
         "type": "tabs",
-        "dimension": 47.13831478537361,
         "children": [
-          {
-            "id": "15fc40d143a49553",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Программирование/Vue.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "fbd1c93031ab7b8c",
             "type": "leaf",
@@ -74,8 +60,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "15fc40d143a49553",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Программирование/JavaScript/JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,8 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 291.5
   },
   "right": {
     "id": "c11d179e0562345b",
@@ -215,13 +213,13 @@
   },
   "active": "61cff10524b60b83",
   "lastOpenFiles": [
-    "Программирование/Vue.md",
+    "Программирование/JavaScript/JavaScript.md",
     "Программирование/JavaScript/Шпоры по Js.md",
-    "Программирование/JavaScript/Лайвкодинг JS.md",
+    "Программирование/Vue.md",
     "Программирование/Общие вопросы по Web.md",
     "Программирование/Шпоры TS.md",
+    "Программирование/JavaScript/Лайвкодинг JS.md",
     "Программирование/Подготовка к собеседованию.md",
-    "Программирование/JavaScript/JavaScript.md",
     "Без названия.canvas",
     "Программирование/base/Шпоры по Js.md",
     "Программирование/base/JavaScript.md",
