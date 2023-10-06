@@ -38,24 +38,18 @@
               "type": "markdown",
               "state": {
                 "file": "Программирование/JavaScript/Лайвкодинг JS.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "a18559f166bb3a62",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "fbd1c93031ab7b8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Программирование/Шпоры TS.md",
+                "file": "Программирование/Vue.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -148,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Программирование/JavaScript/Шпоры по Js.md",
+                "file": "Программирование/JavaScript/Лайвкодинг JS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Программирование/JavaScript/Шпоры по Js.md"
+                "file": "Программирование/JavaScript/Лайвкодинг JS.md"
               }
             }
           },
@@ -211,13 +205,13 @@
       "publish:Публикация изменений": false
     }
   },
-  "active": "61cff10524b60b83",
+  "active": "684b580942691c81",
   "lastOpenFiles": [
-    "Программирование/JavaScript/JavaScript.md",
-    "Программирование/JavaScript/Шпоры по Js.md",
-    "Программирование/Vue.md",
     "Программирование/Общие вопросы по Web.md",
+    "Программирование/JavaScript/JavaScript.md",
+    "Программирование/Vue.md",
     "Программирование/Шпоры TS.md",
+    "Программирование/JavaScript/Шпоры по Js.md",
     "Программирование/JavaScript/Лайвкодинг JS.md",
     "Программирование/Подготовка к собеседованию.md",
     "Без названия.canvas",
