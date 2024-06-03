@@ -117,6 +117,89 @@
 	removed = arr.splice(0, 1, 'Pineapple', 'Lemon')
 	console.log(arr) //[ 'Pineapple', 'Lemon', 'Grape' ]
 	console.log(removed) // Apple
+	
+### Сравнение массивов 
+в JavaScript может быть выполнено несколькими способами, в зависимости от того, насколько строго вы хотите их сравнить. Ниже приведены несколько подходов:
+
+### 1. Простое сравнение массивов
+
+Для простого сравнения массивов на равенство (элементы в одном порядке и одинаковой длины):
+
+```
+function arraysEqual(arr1, arr2) {
+  if (arr1.length !== arr2.length) return false;
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i] !== arr2[i]) return false;
+  }
+  return true;
+}
+
+// Пример использования
+console.log(arraysEqual([1, 2, 3], [1, 2, 3])); // true
+console.log(arraysEqual([1, 2, 3], [3, 2, 1])); // false
+```
+### 2. Сравнение массивов с использованием `JSON.stringify`
+
+Этот метод удобен для простых случаев, но не подходит для сложных структур данных, таких как вложенные объекты:
+
+```
+function arraysEqual(arr1, arr2) {
+  return JSON.stringify(arr1) === JSON.stringify(arr2);
+}
+
+// Пример использования
+console.log(arraysEqual([1, 2, 3], [1, 2, 3])); // true
+console.log(arraysEqual([1, 2, 3], [3, 2, 1])); // false
+```
+### 3. Сравнение массивов с использованием `Array.prototype.every`
+
+Этот метод позволяет сравнивать массивы с функцией сравнения:
+
+```
+function arraysEqual(arr1, arr2) {
+  if (arr1.length !== arr2.length) return false;
+  return arr1.every((value, index) => value === arr2[index]);
+}
+
+// Пример использования
+console.log(arraysEqual([1, 2, 3], [1, 2, 3])); // true
+console.log(arraysEqual([1, 2, 3], [3, 2, 1])); // false
+
+```
+
+### 4. Сравнение массивов с использованием Lodash
+
+Библиотека Lodash предлагает мощную функцию `_.isEqual` для глубокого сравнения массивов и объектов:
+
+```
+const _ = require('lodash');
+
+console.log(_.isEqual([1, 2, 3], [1, 2, 3])); // true
+console.log(_.isEqual([1, 2, 3], [3, 2, 1])); // false
+```
+
+### 5. Сравнение массивов с использованием Set
+
+Этот метод подходит для сравнения массивов, содержащих уникальные элементы (без повторений):
+
+```
+function arraysEqual(arr1, arr2) {
+  return arr1.length === arr2.length && new Set(arr1).size === new Set(arr2).size;
+}
+
+// Пример использования
+console.log(arraysEqual([1, 2, 3], [1, 2, 3])); // true
+console.log(arraysEqual([1, 2, 3], [3, 2, 1])); // false
+
+```
+
+### Выбор метода
+
+- **Для простого сравнения элементов в одном порядке**: Подходы 1, 2, и 3.
+- **Для глубокого сравнения вложенных структур**: Lodash (`_.isEqual`).
+- **Для сравнения массивов уникальных элементов**: Подход с использованием `Set`.
+
+Выбор метода зависит от ваших конкретных требований и структуры данных, с которыми вы работаете.
 
 # Объекты
 ## Преобразование объектов в примитивы 
